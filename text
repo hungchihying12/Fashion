@@ -1,0 +1,27 @@
+juminocore-stylist/
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── src/
+│   ├── main.jsx
+│   ├── index.css
+│   ├── App.jsx
+│   ├── data/
+│   │   ├── seasons.js
+│   │   └── bodyRules.js
+│   ├── logic/
+│   │   ├── colourAnalysis.js
+│   │   ├── bodyAnalysis.js
+│   │   └── outfitGenerator.js
+│   ├── hooks/
+│   │   ├── useWardrobe.js
+│   │   └── useWeather.js
+│   └── components/
+│       ├── Header.jsx
+│       ├── ColourAnalyser.jsx
+│       ├── BodyAnalyser.jsx
+│       ├── Wardrobe.jsx
+│       ├── WeatherOutfit.jsx
+│       └── Swatch.jsx
